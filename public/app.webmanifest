@@ -1,0 +1,47 @@
+{
+  "name": "Admin Dashboard",
+  "short_name": "Dashboard",
+  "start_url": "/",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "./icons/favicon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+
+    {
+      "src": "./icons/favicon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+
+    {
+      "src": "./icons/maskable_icon.svg",
+      "sizes": "250x250",
+      "type": "image/svg",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./icons/screen_web_app.png",
+      "sizes": "1897x935",
+      "type": "image/png",
+      "purpose": "any",
+      "form_factor": "wide",
+      "label": "Admin Dashboard"
+    },
+    {
+      "src": "./icons/screen_web_app_mob.png",
+      "sizes": "913x925",
+      "type": "image/png",
+      "purpose": "any",
+      "label": "Admin Dashboard"
+    }
+  ],
+  "description": "Manage all application features from a convenient admin panel.",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
