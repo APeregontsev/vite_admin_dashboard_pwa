@@ -1,0 +1,10 @@
+.quick-actions-style {
+  display: flex;
+  position: absolute;
+  background-color: #c5c7cd;
+  padding: 12px;
+  z-index: 6;
+  border-radius: 9px;
+  flex-direction: column;
+  opacity: 1;
+}
